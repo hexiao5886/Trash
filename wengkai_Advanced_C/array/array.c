@@ -18,7 +18,7 @@ void array_inflate(Array *a, int more_size);
 
 Array array_create(int init_size){
     Array arr;
-    arr.array = (int*)malloc(init_size*sizeof(int));;
+    arr.array = (int*)malloc(init_size*sizeof(int));
     arr.size = init_size;
     return arr;
 }
